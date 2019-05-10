@@ -6,15 +6,17 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def buy_cat
+  def buy_cat(name)
+    name = self.new
+  end
+
+  def buy_dog(name)
+    name = self.new
 
   end
 
-  def buy_dog
-
-  end
-
-  def buy_fish
+  def buy_fish(name)
+    name = self.new
 
   end
 
